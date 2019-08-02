@@ -24,6 +24,5 @@ Create a mini gane where clicking the button generate several hand cards. Please
 
 #### example card
 <img src="http://h3h.net/images/cards/diamond_9.svg" />
-![preview](http://h3h.net/images/cards/diamond_9.svg)
 
 </div>
