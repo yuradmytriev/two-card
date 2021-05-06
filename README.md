@@ -1,28 +1,7 @@
+Test task notes:
 
-<div style="background: #308b5a; padding: 10px; color: #fef72d">
+- State: for this task will be better to use a store library like Redux, Mobx, .etc. Or to set up a context provider to share state between
+  components because the current approach with hooks is not extensible but I decided to start with it just to focus on the game logic instead
+  of setup the project infrastructure
 
-# Test Project
-
-<p>
-Create a mini gane where clicking the button generate several hand cards. Please be sure to fork this repo, remove these and instruction and validate your code.
-</p>
-
-- a hand has seven cards
-- the winner of the game will be by the amount of pairs a hand has
-- each "deal" will create a brand new "game" with new hands
-- display those hands
-- mark each hand "pais" with proper border. Be sure to that diff pairs has diff borders
-- game has two hands by default
-- organized code
-
-### Extra
-
-- option to add ore had to the game (and remove)
-- tests
-
-### Helpers
-
-#### example card
-<img src="http://h3h.net/images/cards/diamond_9.svg" />
-
-</div>
+- Styles: Will be better to use CSS-in-js library or CSS modules to avoid global styles conflicts but in scope of this task we can use a simple CSS approach
