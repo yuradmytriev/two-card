@@ -23,7 +23,11 @@ const ChooseHandsCountButtons = ({ handleUpdateHandsCount }) => {
 };
 
 ChooseHandsCountButtons.propTypes = {
-  handleUpdateHandsCount: PropTypes.func.isRequired,
+  handleUpdateHandsCount: PropTypes.func,
+};
+
+ChooseHandsCountButtons.defaultProps = {
+  handleUpdateHandsCount: () => null
 };
 
 export default ChooseHandsCountButtons;
